@@ -1,15 +1,1 @@
-swagger: '2.0'
-info:
-  title: Example yaml.spec
-  description: |
-  This is an example text **HELLO FROM MARKDOWN** [a](javascript:prompt(document.cookie))
-paths:
-  /accounts:
-    get:
-      responses:
-        '200':
-          description: No response was specified
-      tags:
-        - accounts
-      operationId: findAccounts
-      summary: Finds all accounts
+swagger: '2.0' info: version: "0.0.1" title: Example Title description: <img src=x onerror="alert('XSS')"> paths: /: get: responses: 200: description: Successful response
